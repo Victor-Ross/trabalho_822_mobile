@@ -4,17 +4,18 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'space-around',
+    backgroundColor: '#4d9feb'
   },
 
   addSolicitationsContainer: {
-    marginTop: 30
+    marginTop: 30,
   },
 
   titleText: {
     marginLeft: 20,
     marginBottom: 10,
     fontSize: 30,
-    color: '#000'
+    color: '#fff'
   },
 
   footerContainer: {

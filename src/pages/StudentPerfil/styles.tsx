@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   perfil: {
     width: '80%',
     flexDirection: 'row',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-evenly',
     marginTop: 40,
     borderBottomWidth: 2,
     borderBottomColor: '#c4bdbc'
@@ -19,6 +19,11 @@ const styles = StyleSheet.create({
   perfilImage: {
     height: 100,
     width: 100,
+    padding: 5,
+    borderWidth: 2,
+    borderRadius: 100 / 2,
+    borderColor: 'red',
+    marginBottom: 10
   },
 
   perfilDescription: {

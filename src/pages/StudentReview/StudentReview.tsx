@@ -4,7 +4,7 @@ import { View, ScrollView, Text, Image } from 'react-native';
 import Header from '../../components/Header/Header';
 import { SoftSkills } from '../../components/Skill/Skill';
 
-import faceImage from '../../images/icones/faces_avaliacao/icone_face_5.png';
+import faceImage from '../../images/icones/faces_avaliacao/icone_face_4.png';
 import linkedinImg from '../../images/icones/logo_linkedin.png';
 import facebookImg from '../../images/icones/logo_facebook.png';
 import instagramImg from '../../images/icones/logo_instagram.png';
@@ -29,7 +29,7 @@ export default function StudentReview() {
           <Image source={faceImage} />
             <View style={styles.mediaNumberContainer}>
               <Text style={styles.mediaNumberText1}>Sua média</Text>
-              <Text style={styles.mediaNumberText2}>10</Text>
+              <Text style={styles.mediaNumberText2}>3,9</Text>
             </View>
           </View>
         </View>

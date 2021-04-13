@@ -3,11 +3,12 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#56adf5',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 
   reviewContainer: {
     marginTop: 50,
+    padding: 10,
     width: '90%',
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
@@ -17,6 +18,7 @@ const styles = StyleSheet.create({
   reviewText: {
     marginLeft: 10,
     marginTop: 10,
+    fontSize: 20
   },
 
   mediaContainer: {
@@ -31,7 +33,8 @@ const styles = StyleSheet.create({
   },
 
   mediaNumberText1: {
-    color: '#a7acb0'
+    color: '#a7acb0',
+    fontSize: 16
   },
 
   mediaNumberText2: {
@@ -42,11 +45,13 @@ const styles = StyleSheet.create({
 
   mediaNumberText3: {
     width: '70%',
-    color: '#a7acb0'
+    color: '#a7acb0',
+    fontSize: 16
   },
 
   softSkillsReview: {
     width: '90%',
+    padding: 10,
     backgroundColor: '#fff',
     height: 150,
     borderBottomLeftRadius: 10,

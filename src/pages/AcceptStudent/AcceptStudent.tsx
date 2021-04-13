@@ -4,7 +4,7 @@ import { View, ScrollView, ImageBackground, Text } from 'react-native';
 import Header from '../../components/Header/Header';
 import AddSolicitation from '../../components/AddSolicitation/AddSolicitation';
 
-import loginBackgroundImg from '../../images/grafismos/login_background.png';
+import loginBackgroundImg from '../../images/grafismos/grafismo_background.png';
 
 import styles from './styles';
 
@@ -15,10 +15,10 @@ export default function AcceptStudent() {
         <Header title="Solicitações" route="/groups" />
 
         <View style={styles.addSolicitationsContainer}>
-        <Text style={styles.titleText}>Solicitações</Text>
-          <AddSolicitation name="pernalonga" class="Gestão de Design" />
-          <AddSolicitation name="patolino" class="Fotografia" />
-          <AddSolicitation name="picapau" class="WebDesign" />
+          <Text style={styles.titleText}>Solicitações</Text>
+            <AddSolicitation name="pernalonga" class="Gestão de Design" />
+            <AddSolicitation name="patolino" class="Fotografia" />
+            <AddSolicitation name="picapau" class="WebDesign" />
         </View>
 
         <View style={styles.footerContainer}>

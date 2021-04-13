@@ -1,16 +1,25 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
   imageBackground: {
+    backgroundColor: '#4d9feb'
+  },
+  container: {
     alignItems: 'center',
+
+  },
+
+  dashboardTitleContainer: {
+    width: '75%',
+    marginBottom: 10
   },
 
   dashboardTitle: {
     marginTop: 50,
 
-    fontSize: 25,
+    fontSize: 28,
     fontWeight: 'bold',
-    color: '#000'
+    color: '#fff'
   },
 
   skillComparativeContainer: {

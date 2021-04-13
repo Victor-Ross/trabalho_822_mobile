@@ -24,7 +24,9 @@ export default function StudentPerfil() {
 
       <View style={styles.container}>
         <View style={styles.perfil}>
-          <Image source={pernalongaImg} style={styles.perfilImage} />
+          <View style={styles.perfilImage}>
+            <Image source={pernalongaImg} style={{ width: '100%', height: '100%' }} />
+          </View>
           <View style={styles.perfilDescription}>
             <Text style={styles.studentName}>Pernalonga</Text>
             <Text style={styles.groupName}>Está no seu grupo de Gestão de Design</Text>

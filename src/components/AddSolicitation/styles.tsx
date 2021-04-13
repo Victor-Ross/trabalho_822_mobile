@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    padding: 15,
+    padding: 10,
     backgroundColor: '#fff',
     width: '90%',
     borderRadius: 15,
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   perfilContainer: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    width: '80%',
+    width: '95%',
   },
 
   imageContainer: {
